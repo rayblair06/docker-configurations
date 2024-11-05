@@ -1,0 +1,6 @@
+# Ignore all vendor directories
+**/vendor/
+
+# Ignore specific files
+composer.lock
+fly.toml

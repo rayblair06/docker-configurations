@@ -1,0 +1,12 @@
+{
+  "name": "rayblair06/docker-configurations",
+  "description": "An example project to showcase Docker configurations",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ray Blair",
+      "email": "rayblair06@hotmail.com"
+    }
+  ],
+  "require": {}
+}
