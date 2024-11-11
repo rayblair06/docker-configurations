@@ -31,6 +31,9 @@ This repository is organized by service type, with Docker configuration examples
       - [FPM](php/basic/fpm)
       - [FrankenPHP](php/basic/frankenphp)
       - [Nginx](php/basic/nginx)
+   - Laravel
+      - [FrankenPHP](php/laravel/frankenphp)
+      - [Nginx](php/laravel/nginx)
 
 ## Usage
 
