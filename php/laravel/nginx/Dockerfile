@@ -38,7 +38,7 @@ RUN apk add --no-cache \
 # - www.conf - PHP FPM configuration
 # - php.ini - PHP configuration
 COPY Docker/php.conf /etc/php83/php-fpm.d/www.conf
-COPY Docker/php.ini /etc/php83/php.ini
+COPY Docker/php.production.ini /etc/php83/php.ini
 
 # Copy NGINX configuration files
 # - nginx.conf: Main configuration for NGINX
