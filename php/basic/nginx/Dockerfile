@@ -76,4 +76,4 @@ CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 # Configure a healthcheck to ensure the services are running
 # - Uses curl to test if the server responds on port 8080
-HEALTHCHECK --timeout=10s CMD curl --silent --fail http://127.0.0.1:80 || exit 1
+HEALTHCHECK --timeout=10s CMD curl --silent --fail http://127.0.0.1:8080 || exit 1
