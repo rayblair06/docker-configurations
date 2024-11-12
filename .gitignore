@@ -4,3 +4,6 @@
 # Ignore specific files
 composer.lock
 fly.toml
+
+# Ignore PaaS folders
+**/.fly/
